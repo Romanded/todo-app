@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    min-height: 80px;
+    max-width: 100%;
+    border: 1px solid #E2E2E2;
+    background: #F9F9F9;
+    padding-left: 43px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.checkbox {
+    display: none;
+}
+
+label {
+    margin-right: 19px;
+    min-width: 30px;
+    height: 30px;
+    background: #FFF;
+    border: 1px solid  #E0E0E0;
+    border-radius: 50%;
+
+}
+
+.task {
+    width: 100%;
+    margin-right: 10px;
+    word-break: break-all;
+    text-align: start;
+}
+
+.date {
+    font-size: 12px;
+    color: #A6A6A6;
+    margin: 12px 0 auto 0;
+}
